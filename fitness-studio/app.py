@@ -10,6 +10,7 @@ EMAIL_REGEX = re.compile(r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")
 
 logging.basicConfig(level=logging.INFO)
 
+
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///fitness_studio.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
