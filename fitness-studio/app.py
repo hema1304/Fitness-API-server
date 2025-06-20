@@ -8,7 +8,6 @@ import pytz ,json
 import logging,re
 EMAIL_REGEX = re.compile(r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")
 
-
 logging.basicConfig(level=logging.INFO)
 
 app = Flask(__name__)
