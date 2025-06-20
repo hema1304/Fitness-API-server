@@ -1,2 +1,6 @@
-.pytest_*
-.__pycache__
+
+__pycache__/
+
+# SQLite database
+instance/fitness_studio.db
+*.db
