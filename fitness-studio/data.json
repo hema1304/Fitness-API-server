@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Yoga",
+        "datetime": "2025-06-21 08:00", 
+        "instructor": "Alice",
+        "available_slots": 2
+    },
+    {
+        "id": 2,
+        "name": "Zumba",
+        "datetime": "2025-06-21 10:00",
+        "instructor": "Bob",
+        "available_slots": 5
+    },
+    {
+        "id": 3,
+        "name": "HIIT",
+        "datetime": "2025-06-21 16:00",
+        "instructor": "Carol",
+        "available_slots": 5
+    }
+]
+
